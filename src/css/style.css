@@ -1,0 +1,60 @@
+body{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+
+main{
+    border: 3px dotted;
+    padding: 1rem;
+}
+
+h1{
+    color: red;
+}
+
+pre{
+    line-height: 2;
+    color: red;
+
+}
+
+strong{
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btns .btn{
+    position: relative;
+    background-color: white;
+    width: 25vw;
+    height: 4vh;
+    border-radius: 10px;
+    border: 0px;
+    transition: 0.7s ease-in-out;
+
+}
+
+
+.btns .btn.sim:hover{
+    cursor: pointer;
+    background-color: rgb(20, 105, 46);
+    border: 2px solid blueviolet;
+}
+
+.btns .btn.nao:hover{
+    
+    cursor: pointer;
+    background-color: red;
+    border: 2px solid blueviolet;
+}
