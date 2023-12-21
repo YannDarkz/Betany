@@ -1,5 +1,5 @@
 body{
-    background-color: pink;
+    background-color: rgb(99, 184, 20);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,19 +7,23 @@ body{
     justify-content: center;
 }
 
+h1 {
+    font-size: 20px;
+}
+
+p {
+    color: aliceblue;
+}
 
 main{
     border: 3px dotted;
     padding: 1rem;
 }
 
-h1{
-    color: red;
-}
-
 pre{
-    line-height: 2;
+    
     color: red;
+    font-size: 18px;
 
 }
 
@@ -45,15 +49,7 @@ strong{
 
 }
 
-
-.btns .btn.sim:hover{
-    cursor: pointer;
-    background-color: rgb(20, 105, 46);
-    border: 2px solid blueviolet;
-}
-
-.btns .btn.nao:hover{
-    
+.btns .btn:hover{
     cursor: pointer;
     background-color: red;
     border: 2px solid blueviolet;
