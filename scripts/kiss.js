@@ -24,7 +24,7 @@ btnNao.addEventListener('click', () => {
     const posicoes = [
         { top: '150px' },
         { top: '50px' },
-        { top: '300px' },
+        { top: '200px' },
         { top: '100px' },
         { top: '250px' }
     ];
