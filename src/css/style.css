@@ -15,6 +15,7 @@ body{
     align-items: center;
     min-height: 100vh;
     justify-content: center;
+    overflow: hidden;
 }
 
 h1 {
@@ -28,6 +29,11 @@ p {
 main{
     border: 7px double;
     padding: 1rem;
+}
+
+#resp {
+    color: blue;
+
 }
 
 pre{
@@ -48,6 +54,12 @@ strong{
     justify-content: space-around;
 }
 
+.btn.sim:hover{
+    cursor: pointer;
+    background-color: green;
+    border: 2px solid blueviolet;
+}
+
 .btns .btn{
     position: relative;
     background-color: white;
@@ -59,7 +71,7 @@ strong{
 
 }
 
-.btns .btn:hover{
+.btn.nao:hover{
     cursor: pointer;
     background-color: red;
     border: 2px solid blueviolet;
