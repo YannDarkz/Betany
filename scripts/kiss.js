@@ -12,7 +12,7 @@ btnSim.addEventListener('click', () => {
 resp.innerText =
  `Não tenho nem conta netflix,
   então ja sabe ne => METFRIXXX
-  ( ͡° ͜ʖ ͡°) ( ͡° ͜ʖ ͡°) ( ͡° ͜ʖ ͡°)`
+  kkkkkkkkkkkkk, Brinkss <3 `
     setTimeout(() => {
         window.open('https://www.netflix.com/', '_blank');
     }, 3000);
